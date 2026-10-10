@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>لاگین دیجی کالا</title>
+</head>
+<body class="w-full h-screen flex items-center justify-center flex-col bg-white dark:bg-dark-bg-body font-yecan">
+
+    <div id="mode-btn" class="w-[32px] h-[32px] my-2">
+        <i id="moon" class="fa-solid fa-moon border border-red text-red p-2 rounded-full" style="display: none;" ></i>
+        <i id="sun" class="fa-solid fa-sun border border-red  text-red p-2 rounded-full"></i>
+    </div>
+
+   
+    <div class="bg-white dark:bg-dark-bg-card border border-gray rounded-lg flex items-center justify-center flex-col py-9">
+        <img src="../assect/icon.png" width="150" height="40" class="mx-4" alt="">
+        <div class="mx-6">
+            <h3 class="text-xl bold my-5 dark:text-white">ورود | ثبت نام</h3>
+            <p class="text-xs text-muted leading-5 dark:text-white">سلام !</p>
+            <p class="text-xs text-muted leading-5 dark:text-white">لطفا شماره موبایل یا ایمیل خود را وارد کنید</p>
+       
+            <input type="text" class="outline-none border border-gray dark:border-white text-muted w-full rounded-lg p-3 my-4">
+        
+            <div class="w-full bg-red text-white flex items-center justify-center py-3 rounded-lg">ورود</div>
+            <p class="text-muted text-xs my-5 dark:text-white">ورود شما به معنای پذیرش
+                <a href="" class="text-blue">شرایط دیجی کالا</a>
+                و
+                <a href="" class="text-blue">قوانین حریم خصوصی </a>
+                است
+            </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

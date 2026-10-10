@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: "yecan";
+    src: url(../font/Yekan.woff) format("woff");
+}
+
+@theme {
+  --color-dark-bg-body: #353535;
+  --color-dark-bg-card: #242424;
+  --color-red:#ef4056;
+  --color-black: #0c0c0c;
+  --color-muted: #3f4064;
+  --color-input-bg: #f0f0f1;
+  --color-blue: #008eb2;
+  --color-gray: #ccc;
+  --color-white: #fff;
+
+  --font-yecan:"yecan",sans-serif;
+}
